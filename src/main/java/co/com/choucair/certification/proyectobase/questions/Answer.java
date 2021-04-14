@@ -26,7 +26,6 @@ public class Answer  implements Question<Boolean> {
         String nameCourse= Text.of(SearchCoursePage.NAME_COURSE).viewedBy(actor).asString();
 
         if(question.equals(nameCourse)) {
-
             result = true;
 
 
@@ -38,5 +37,10 @@ public class Answer  implements Question<Boolean> {
         }
 
         return result;
+
+
     }
+
+
+
 }
