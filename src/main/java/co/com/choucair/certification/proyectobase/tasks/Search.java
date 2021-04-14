@@ -26,12 +26,7 @@ private String course;
                 Click.on(SearchCoursePage.BANNER_CURSO)
 
 
-                /*
-                Enter.theValue(course).into(SearchCoursePage.INPUT_COURSE)
-                Click.on(SearchCoursePage.BUTTON_GO),
-                Click.on(SearchCoursePage.SELECT_COURSE)
 
-*/
         );
     }
 }
